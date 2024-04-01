@@ -5,6 +5,7 @@ import profile0 from './assets/images/profile0.jpg';
 import profile1 from './assets/images/profile1.jpg';
 import profile2 from './assets/images/profile2.jpg';
 import profile3 from './assets/images/profile3.jpg';
+import profile4 from './assets/images/profile4.jpg';
 
 const { Header, Content, Footer } = Layout;
 
@@ -52,7 +53,7 @@ const LayoutComp = () => {
               />
             </Col>
             <Col>
-              <CardComp 
+              <CardComp
                 imagem={profile1}
                 title="Jeane Vitória"
                 description="Estudante de Bacharelado em Ciência da Computação na UFRPE. Com experiência em Java, C e HTML, ela está constantemente em busca de desafios para aprimorar suas habilidades. Seus interesses abrangem áreas como segurança da informação, desenvolvimento de aplicativos móveis e inteligência artificial."
@@ -69,16 +70,16 @@ const LayoutComp = () => {
               <CardComp 
                 imagem={profile3}
                 title="Gabriel Cisneiros"
-                description="Estudante do quarto período de Ciência da Computação na UFRPE, possui conhecimentos em C, Java e está atualmente estudando JavaScript. Tem preferência pelo desenvolvimento backend, mas em termos de tecnologias em geral, mostra interesse especial pela área de hardware, especialmente em robótica."
+                description="Estudante de Ciência da Computação no 4º período, especializado em desenvolvimento front-end. Com experiência em React.js, Node.js, JavaScript, Java, Python e C, ele é um desenvolvedor versátil. Demonstrando interesse em segurança de dados e blockchain, buscando sempre novos caminhos e inovações."
               />
             </Col>
           </Row>
           <Row>
             <Col>
             <CardComp 
-                imagem={profile3}
-                title="Gabriel Cisneiros"
-                description="Estudante do quarto período de Ciência da Computação na UFRPE, possui conhecimentos em C, Java e está atualmente estudando JavaScript. Tem preferência pelo desenvolvimento backend, mas em termos de tecnologias em geral, mostra interesse especial pela área de hardware, especialmente em robótica."
+                imagem={profile4}
+                title="Brenno Araújo"
+                description="Estudante de Ciência da Computação no quarto período da UFRPE. Ele tem conhecimento em linguagens de programação como Python, Java, C e C++. Suas áreas de interesse incluem Programação Orientada a Objetos, Análise de Dados e Segurança da Informação."
             />
             </Col>
           </Row>
